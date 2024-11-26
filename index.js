@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }));
 
 import path from "path";
 
-app.use(express.static(path.join(process.cwd(), './pages/public')));
+app.use(express.static(path.join(process.cwd(), './paginas/publica')));
 
 const porta = 3000;
 const host = '0.0.0.0';
